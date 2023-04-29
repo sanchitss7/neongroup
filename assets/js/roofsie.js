@@ -423,14 +423,14 @@
         let navContent = document.querySelector(".main-menu__list").outerHTML;
         let mobileNavContainer = document.querySelector(".mobile-nav__container");
         mobileNavContainer.innerHTML = navContent;
-        alert("hi");
+       
     }
     if ($(".sticky-header__content").length) {
         let logoContent = document.querySelector(".main-header__logo").innerHTML;
         let navContent = document.querySelector(".main-menu").innerHTML;
         let mobileNavContainer = document.querySelector(".sticky-header__content");
         mobileNavContainer.innerHTML = logoContent + navContent;
-        alert("hio");
+      
     }
 
     if ($(".mobile-nav__container .main-menu__list").length) {

@@ -827,6 +827,23 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .about-one {
+        padding-left: 10px !important;
+    }
+    .services-one {
+        background: #1e1d21;
+    }
+    p.services-one__top-right-text.service-bottom-list span {
+        display: table;
+    }
+    p.services-one__top-right-text.service-bottom-list {
+        margin-top: 0;
+    }
+    .about-one__big-text {
+        opacity: 0.5;
+        left: -140px;
+        top: 60px;
+    }
     .main-slider__nav {
         display: none;
     }

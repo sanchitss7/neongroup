@@ -393,6 +393,10 @@ color: #004a8f;
     border-radius: 0;
 }
 
+.main-menu__list li.dropdown.productlistmenu ul li {
+    width: 25%;
+}
+
 .bootstrap-select .dropdown-menu>li+li>a {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -962,7 +966,7 @@ ul.main-menu__list li {
 .stricky-header .main-menu__list>li>ul>li,
 .stricky-header .main-menu__list>li>ul>li>ul>li {
     flex: 0 0 auto;
-    width: 25%;
+    width: 100%;
     height: auto;
 }
 
@@ -11354,16 +11358,18 @@ body.boxed-wrapper {
 
 
 /* accordian */
-.accordion{
+
+.accordion {
     width: 100%;
     background: #FFF;
     margin: 0 15px;
     padding: 15px;
     border-radius: 8px;
-    box-shadow:  0 0 4px rgba(0,0,0,0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
 }
-.accordion .accordion-content{
+
+.accordion .accordion-content {
     margin: 10px 0;
     border-radius: 4px;
     background: #004a8f;
@@ -11371,22 +11377,27 @@ body.boxed-wrapper {
     overflow: hidden;
     color: #ffffff;
 }
-.accordion-content:nth-child(2){
+
+.accordion-content:nth-child(2) {
     background-color: #ffcc0e;
     border-color: #fbe79e;
 }
-.accordion-content:nth-child(3){
+
+.accordion-content:nth-child(3) {
     background-color: #FFF0F3;
     border-color: #FFCCD6;
 }
-.accordion-content:nth-child(4){
+
+.accordion-content:nth-child(4) {
     background-color: #F0F0FF;
     border-color: #CCCCFF;
 }
-.accordion-content.open{
+
+.accordion-content.open {
     padding-bottom: 10px;
 }
-.accordion-content header{
+
+.accordion-content header {
     display: flex;
     min-height: 50px;
     padding: 0 15px;
@@ -11395,19 +11406,23 @@ body.boxed-wrapper {
     justify-content: space-between;
     transition: all 0.2s linear;
 }
-.accordion-content.open header{
+
+.accordion-content.open header {
     min-height: 35px;
 }
-.accordion-content header .title{
+
+.accordion-content header .title {
     font-size: 14px;
     font-weight: 500;
     color: #fff;
 }
-.accordion-content header i{
+
+.accordion-content header i {
     font-size: 15px;
     color: #333;
 }
-.accordion-content .description{
+
+.accordion-content .description {
     height: 0;
     font-size: 12px;
     color: #ffffff;
@@ -11415,4 +11430,6 @@ body.boxed-wrapper {
     padding: 0 15px;
     transition: all 0.2s linear;
 }
+
+
 /* accordian ends */

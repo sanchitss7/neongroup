@@ -11166,7 +11166,7 @@ ul.list-unstyled.product-inner__point li .icon i {
 
 .about-four {
     background-color: var(--roofsie-white);
-    padding: 120px 0 96px;
+    padding: 120px 0 50px;
 }
 
 
@@ -11433,3 +11433,16 @@ body.boxed-wrapper {
 
 
 /* accordian ends */
+
+.section-sub__title {
+    margin: 0;
+    color: #505050;
+    font-size: 28px;
+    line-height: 58px;
+    font-weight: 800;
+}
+
+.col-lg-12.service-content-inner {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}

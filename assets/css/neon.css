@@ -1138,7 +1138,7 @@ li.dropdown.productlistmenu ul {
 }
 
 .main-menu .mobile-nav__toggler {
-    font-size: 20px;
+    font-size: 30px;
     color: var(--roofsie-base);
     cursor: pointer;
     -webkit-transition: 500ms;
@@ -1463,14 +1463,16 @@ li.dropdown.productlistmenu ul {
     color: #fff;
 }
 
+.mobile-nav__top {
+    display: none;
+}
+
 .mobile-nav__container .main-logo,
 .mobile-nav__container .topbar__buttons,
 .mobile-nav__container .main-menu__language,
 .mobile-nav__container .main-menu__login {
     display: none;
 }
-
-.mobile-nav__container .mobile-nav__container {}
 
 .mobile-nav__container li.dropdown.productlistmenu ul {
     position: relative;
@@ -5086,7 +5088,7 @@ p.footer-widget__about-content {
     justify-content: center;
     text-align: center;
     color: var(--roofsie-white);
-    background-color: #151518;
+    background-color: #004a8f;
     font-size: 15px;
     border-radius: 50%;
     overflow: hidden;
@@ -11473,10 +11475,10 @@ body.boxed-wrapper {
 
 .section-sub__title {
     margin: 0;
-    color: #505050;
     font-size: 28px;
     line-height: 58px;
     font-weight: 800;
+    color: #004a8f;
 }
 
 .col-lg-12.service-content-inner {

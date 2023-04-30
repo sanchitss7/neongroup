@@ -10512,7 +10512,7 @@ ul.list-unstyled.product-inner__point li .icon i {
 .contact-details__list {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: self-start;
     flex-wrap: wrap;
 }
 
@@ -10523,6 +10523,7 @@ ul.list-unstyled.product-inner__point li .icon i {
     width: 100%;
     text-align: center;
     margin-bottom: 19px;
+    vertical-align: top;
 }
 
 .contact-details__list li:before {

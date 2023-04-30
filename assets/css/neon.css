@@ -44,8 +44,8 @@
 }
 
 body {
-    font-family: var(--roofsie-font);
-    color: var(--roofsie-gray);
+    font-family: 'Manrope', sans-serif;
+    color: #6c6b6f;
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
@@ -3511,7 +3511,7 @@ p.about-one__text {
     display: flex;
     align-items: center;
     font-size: 26px;
-    color: var(--roofsie-base);
+    color: #ffcc0e;
 }
 
 .about-one__points li .icon-box .text-box {
@@ -10900,13 +10900,13 @@ ul.list-unstyled.product-inner__point li .icon i {
     right: 0;
     left: 0;
     content: "";
-    background-color: rgba(var(--roofsie-base-rgb), 0.9);
     -webkit-transition: all 700ms ease;
     transition: all 700ms ease;
     -webkit-transform: translateY(-102%);
     transform: translateY(-102%);
-    border-radius: var(--roofsie-bdr-radius);
+    border-radius: 5px;
     z-index: 1;
+    background-color: #004a8fd6;
 }
 
 .gallery-page__single:hover .gallery-page__img:before {
@@ -10916,7 +10916,7 @@ ul.list-unstyled.product-inner__point li .icon i {
 
 .gallery-page__img img {
     width: 100%;
-    border-radius: var(--roofsie-bdr-radius);
+    /* border-radius: var(--roofsie-bdr-radius); */
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: -webkit-transform 500ms ease;
@@ -11481,4 +11481,25 @@ section.text-center.service-second ul.list-unstyled.about-one__points {
     text-align: center;
     font-size: 19px;
     font-weight: 900;
+}
+.gallery-page__img:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-color: #00498ddb;
+    border-radius: var(--roofsie-bdr-radius);
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: 1;
 }

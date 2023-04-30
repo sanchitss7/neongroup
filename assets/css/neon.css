@@ -11362,3 +11362,32 @@ body.boxed-wrapper {
     padding-top: 20px;
     padding-bottom: 60px;
 }
+
+
+.service-second {
+    background-color: #004a8f;
+    margin-bottom: 50px;
+    padding: 40px 0px;
+}
+
+section.text-center.service-second {
+    color: #ffffff !important;
+}
+
+section.text-center.service-second h3.section-sub__title {
+    color: #ffcc0e;
+    text-transform: capitalize;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+section.text-center.service-second ul.list-unstyled.about-one__points li p {
+    color: #ffffff;
+    padding-right: 30px;
+}
+
+section.text-center.service-second ul.list-unstyled.about-one__points {
+    margin: 0px;
+    padding-bottom: 40px;
+}

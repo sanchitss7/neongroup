@@ -837,6 +837,7 @@ ul.main-menu__list li {
 }
 
 @media (min-width: 1200px) {
+
     .main-menu .main-menu__list,
     .main-menu .main-menu__list>li>ul,
     .main-menu .main-menu__list>li>ul>li>ul,
@@ -4171,7 +4172,7 @@ p.footer-widget__about-content {
     transform: translate(-50%, -50%) !important;
     height: 60px;
     width: 60px;
-    background-color: var( --roofsie-black);
+    background-color: var(--roofsie-black);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -11474,4 +11475,10 @@ section.text-center.service-second ul.list-unstyled.about-one__points li p {
 section.text-center.service-second ul.list-unstyled.about-one__points {
     margin: 0px;
     padding-bottom: 40px;
+}
+
+.workshop-note {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
 }
